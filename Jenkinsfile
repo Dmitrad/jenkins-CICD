@@ -10,7 +10,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building....'
-                cd terraform
+                cd files
                 terraform init
                 terraform plan
             }
@@ -18,7 +18,7 @@ pipeline {
         // stage('Deploy') {
         //     steps {
         //         echo 'Deploying....'
-        //         cd terraform
+        //         cd files
         //         terraform apply -auto-approve
         //     }
         // }
