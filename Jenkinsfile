@@ -13,9 +13,8 @@ pipeline {
             steps { 
                 sh '''
                 echo 'Building....'
-                cd files
+                cd files/environments
                 terraform init
-                terraform plan
                 '''
             }
         }
@@ -23,7 +22,7 @@ pipeline {
         //     steps {
         //         sh '''
         //         echo 'Deploying....'
-        //         cd files
+        //         cd files/environments
         //         terraform apply -auto-approve
         //         sh '''
         //     }

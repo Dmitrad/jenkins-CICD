@@ -1,3 +1,3 @@
 variable "environment" {
-    default = "jenkins"
+  default = "jenkins"
 }
