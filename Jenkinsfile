@@ -18,15 +18,15 @@ pipeline {
                 '''
             }
         }
-        // stage('Deploy') {
-        //     steps {
-        //         sh '''
-        //         echo 'Deploying....'
-        //         cd files/environments
-        //         terraform apply -auto-approve
-        //         sh '''
-        //     }
-        // }
+        stage('Deploy') {
+            steps {
+                sh '''
+                echo 'Deploying....'
+                cd files/environments
+                terraform apply -auto-approve
+                sh '''
+            }
+        }
     }
     post { 
         always { 

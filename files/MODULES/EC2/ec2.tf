@@ -1,5 +1,5 @@
 locals {
-  my_bootstrap = file("../../MODULES/FILES/jenkins-bootstrap-script.sh")
+  my_bootstrap = file("../MODULES/FILES/jenkins-bootstrap-script.sh")
 }
 
 resource "aws_instance" "web" {
