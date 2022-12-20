@@ -33,7 +33,7 @@
   <div align="center">
     <h1>Congratulations-TEAM2 2022 DevOps Class</h1>
     <h2>This application was deployed using Jenkins.</h2>
-    <h3>Next Step go to drink and start a new career.</h3>
+    <h3>Next Step go to celebrate and start a new career.</h3>
     <p>For next steps, read the <a href="http://aws.amazon.com/documentation/codedeploy">AWS CodeDeploy Documentation</a>.</p>
   </div>
 </body>
